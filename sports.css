@@ -1,0 +1,27 @@
+html{
+    font-size: 20px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    background-color: aqua;
+    color: rgb(147, 20, 220);
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+}
+
+h2{
+    border-bottom: 10px dotted;
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: 2rem;
+    border-left: 10px dotted;
+    border-right: 10px dotted;
+}
