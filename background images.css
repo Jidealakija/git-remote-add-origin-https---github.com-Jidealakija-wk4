@@ -27,3 +27,8 @@ div.Belgium{
     background: linear-gradient(90deg,black 30%, yellow 30%, yellow 65%, red 65%);
     color: white;
 }
+
+div.japan{
+    background-color: white;
+    background-image: radial-gradient(circle, red 40%, transparent 5%);
+}
