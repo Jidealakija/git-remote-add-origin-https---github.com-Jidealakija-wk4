@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    font-weight: 9000;
+    letter-spacing: 20px;
+}
+
+p{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 2rem;
+    font-weight: 20000;
+    line-height: 2;
+    background-color: aqua;
+    border-radius: 60px 0 60px 0;
+}
+
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    background-color: black;
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    max-height: 800px;
+    border-left: 20px dotted green;
+    border-right: 20px dotted white;
+    border-radius: 50%;
+    padding: 1em;
+}
