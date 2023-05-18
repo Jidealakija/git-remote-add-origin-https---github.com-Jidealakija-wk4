@@ -30,5 +30,56 @@ div.Belgium{
 
 div.japan{
     background-color: white;
-    background-image: radial-gradient(circle, red 40%, transparent 5%);
+    background-image: radial-gradient(circle, red 30%, transparent 5%);
+}
+
+.conic{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    background: conic-gradient(red 30%, blue 30%, blue 60%, green 60%);
+    background-clip: text;
+    color: transparent;
+}
+
+.image{
+    width: 700px;
+    height: 400px;
+    background:url(./Images/Jay\ Jay\ Okocha.jpg);
+    background-size: cover;
+    color: transparent;
+    font-size: 4em;
+    background-clip: text;
+    text-align: center;
+}
+
+.online{
+    width: 700px;
+    height: 400px;
+    background-image: url(https://unsplash.com/photos/YRMWVcdyhmI), url(https://images.unsplash.com/photo-1568333261345-0918efdce2d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsYXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+}
+
+.ghana{
+    width: 700px;
+    height: 400px;
+    background-image: url(./Images/Black_star-removebg-preview.png), linear-gradient(180deg, red 35%, yellow 30%, yellow 65%, green 65%);
+    background-position: center;
+    background-size: 140px, 900px;
+    background-repeat: no-repeat;
+}
+
+.blend{
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(./Images/Jay\ Jay\ Okocha.jpg);
+    background-color: green;
+}
+
+.blend:hover{
+    background-blend-mode:overlay;
+    cursor:pointer
 }
